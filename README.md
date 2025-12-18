@@ -1,28 +1,34 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# NYR2023: From forecast to fable, design decisions for statistical software.
+<!-- README.md is generated from README.qmd. Please edit that file -->
+
+# IIF OSF: Designing extensible forecasting frameworks
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-Slides and notes for a talk at the 2023 New York R (13-14th July 2023)
-in Manhattan, New York USA.
+Slides and notes for a talk at the 2025 IIF Workshop on Open Source
+Forecasting (25-27th June 2025) in Beijing, China.
 
-A recording of this presentation is available on YouTube here:
-<https://www.youtube.com/watch?v=IFTfHfmR1h8>
+<!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=IFTfHfmR1h8> -->
 
-[![](preview.jpg)](https://www.youtube.com/watch?v=IFTfHfmR1h8)
+<!-- [![](preview.jpg)](https://www.youtube.com/watch?v=IFTfHfmR1h8) -->
 
 #### Abstract
 
 A well designed interface is instrumental in making software easy to
 learn and use. The design of statistical software is inherently
 subjective, and there are many difficult decisions involved in creating
-interfaces that work cohesively within the intended domain. In this
-talk, I will examine the design decisions made when creating fable, the
-tidy time series forecasting successor of the widely renowned forecast
-package.
+interfaces that work cohesively within the intended domain. A
+forecasting framework sets out the design language for the forecasting
+workflow, guiding users conceptually about how different steps relate to
+one another. Making each element of the workflow extensible enables
+developers to implement new models, accuracy metrics, or other
+forecasting techniques that can be immediately used in conjunction with
+other forecasting elements. In this talk, I will examine the design
+decisions made when creating fable, the tidy time series forecasting
+successor of the forecast package.
 
 #### Structure
 
@@ -38,4 +44,4 @@ package.
 
 ### Format
 
-20 minute talk.
+25 minute talk.
